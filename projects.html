@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Madhu Kumari</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: #283593;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover, .active {
+            background-color: #f4b400;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        /* Projects Section */
+        .projects {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .projects h2 {
+            font-size: 2.8rem;
+            color: #283593;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .projects h2::after {
+            content: '';
+            width: 100px;
+            height: 4px;
+            background-color: #f4b400;
+            display: block;
+            margin: 10px auto;
+            border-radius: 4px;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .project-item {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            max-width: 370px;
+            text-align: left;
+        }
+
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-item h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .project-item p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .project-item h4 {
+            font-size: 1.2rem;
+            margin: 15px 0 10px;
+            color: #283593;
+        }
+
+        .project-item ul {
+            margin-bottom: 20px;
+        }
+
+        .project-item ul li {
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+
+        .project-item a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #283593;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-item a:hover {
+            background-color: #f4b400;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #283593;
+            color: #fff;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h2>Working On & Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Room Allocation Web App</h3>
+                    <p>A tool to efficiently allocate rooms in hostels based on group ID, gender, and capacity.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>E-commerce Website</h3>
+                    <p>An online platform for selling products with integrated payment gateway.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <!-- Cognifyz Info Tech: Level 1 Projects -->
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 1 (HTML/CSS)</h3>
+                    <p>Created a simple webpage with a heading, paragraph, image, form, and navigation menu using HTML and CSS.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 1 (JavaScript)</h3>
+                    <p>Developed interactive elements like a color-changing button, greeting alert box, and a basic calculator using JavaScript.</p>
+                    <p><strong>Technologies:</strong> JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <!-- Cognifyz Info Tech: Level 2 Projects -->
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 2 (Front-end Frameworks)</h3>
+                    <p>Implemented responsive card components and grid layouts using frameworks like Bootstrap and Foundation.</p>
+                    <p><strong>Technologies:</strong> Bootstrap, Foundation</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 2 (Responsive Design)</h3>
+                    <p>Created responsive web pages and a mobile-friendly navigation menu using CSS media queries and a hamburger menu.</p>
+                    <p><strong>Technologies:</strong> CSS Media Queries</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <!-- Cognifyz Info Tech: Level 3 Projects -->
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 3 (Image Manipulation)</h3>
+                    <p>Built an image gallery and slideshow using HTML and CSS for image interaction and animation.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Cognifyz Info Tech - Level 3 (Internship Landing Page)</h3>
+                    <p>Designed a landing page for a web developer internship with a clear headline, benefits, qualifications, and a call-to-action button.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+
+                <!-- Catalog of Amazon -->
+                <div class="project-item">
+                    <h3>Catalog of Amazon</h3>
+                    <p>This project involves designing a visually appealing and user-friendly catalog inspired by Amazon's layout using HTML and CSS.</p>
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Grid Layout: Products displayed using a structured grid format.</li>
+                        <li>Hover Effects: Interactive hover effects on products to enhance user interaction.</li>
+                        <li>Optimized Images: Implemented image optimization for faster loading.</li>
+                        <li>Responsive Design: Adapts seamlessly to desktops, tablets, and mobile devices.</li>
+                    </ul>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Madhu Kumari. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
