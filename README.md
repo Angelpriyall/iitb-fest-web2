@@ -26,10 +26,8 @@ root/ ├── css/ │ └── styles.css # Contains all the styles for the 
 ## Deployment
 This website is deployed using **GitHub Pages**. To deploy your own version, follow these steps:
 1. Fork or clone this repository.
-2. Make sure all changes are committed and pushed to your GitHub repository.
-3. Go to the repository settings on GitHub.
-4. Scroll to the **GitHub Pages** section and select the branch (e.g., `main`) and directory to publish from (usually `/root`).
-5. GitHub will provide a live link to access the website.
+2. GitHub will provide a live link to access the website.
+3.go to code section to  view the code 
 
 ## How to Use
 You can view the portfolio website by visiting the live link below. It includes the following sections:
